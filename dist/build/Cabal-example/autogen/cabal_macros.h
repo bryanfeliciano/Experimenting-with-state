@@ -22,17 +22,6 @@
   (major1) == 4 && (major2) == 12 && (minor) <= 0)
 #endif /* MIN_VERSION_base */
 
-/* package titlecase-1.0.1 */
-#ifndef VERSION_titlecase
-#define VERSION_titlecase "1.0.1"
-#endif /* VERSION_titlecase */
-#ifndef MIN_VERSION_titlecase
-#define MIN_VERSION_titlecase(major1,major2,minor) (\
-  (major1) <  1 || \
-  (major1) == 1 && (major2) <  0 || \
-  (major1) == 1 && (major2) == 0 && (minor) <= 1)
-#endif /* MIN_VERSION_titlecase */
-
 /* tool gcc-6.3.0 */
 #ifndef TOOL_VERSION_gcc
 #define TOOL_VERSION_gcc "6.3.0"
